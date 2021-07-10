@@ -1,0 +1,16 @@
+.products{
+    margin: 20px 40px;
+    display: flex!important;
+    flex-wrap: wrap!important;
+}
+.card-image{
+    padding: 0 100px;
+}
+.card-image > img{
+    object-fit: contain;
+    height: 150px;
+}
+.product-rating{
+    display: flex;
+    flex-direction: row;
+}

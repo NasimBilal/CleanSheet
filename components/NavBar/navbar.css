@@ -1,0 +1,50 @@
+.navbar{
+    position: sticky;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #2874F0;
+    min-height: 50px;
+}
+.navbar > h2 {
+    font-family: cursive;
+    justify-content: center;
+
+}
+@media screen and (max-width: 768px){
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+    .menu{
+        display: flex !important;
+        flex-direction: row;
+        justify-content: space-evenly!important;
+    }
+    .cart{
+        display: flex;
+    }
+}
+.search-box{
+    display: flex;
+    justify-content: center;
+}
+.search-icon{
+    background-color: yellow;
+    cursor: pointer;
+}
+.search-box > input{
+    padding: 8px 50px;
+    @media (max-width: 768px){
+        padding: 8px 30px;
+    }
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+}
+.cart{
+    cursor: pointer;
+}
